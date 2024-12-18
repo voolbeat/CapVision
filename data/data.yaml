@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Bottle', 'Cap']
+
+roboflow:
+  workspace: lobachevsky-university
+  project: bottle-cap-v5
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lobachevsky-university/bottle-cap-v5/dataset/6
